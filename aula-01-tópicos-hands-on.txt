@@ -1,0 +1,25 @@
+Combinados
+
+Ambiente
+
+Sandbox: https://www.jdoodle.com/online-java-compiler/
+JDK 11: https://www.oracle.com/br/java/technologies/javase-jdk11-downloads.html
+IDE IntelliJ IDEA: https://www.jetbrains.com/idea/
+Git: https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Instalando-o-Git
+
+Fontes de Informação
+
+Java – site oficial: https://www.oracle.com/java/technologies/
+Spring – site oficial: https://spring.io/
+Mykong: https://mkyong.com/
+Baeldung: https://www.baeldung.com/
+Spring Guru: https://springframework.guru/
+
+Hands-On
+
+1 - Download JDK (direto do site da Oracle, tem que criar conta... para instalar é "next > next > finish"
+2 - Setup IntelliJ
+3 - Explicação sobre a estrutura da ferramenta (project, commit, mudar diretório padrão...)
+4 - Fazer função main e falar sobre os tipos de comentários
+5 - Fazer o Hello World
+6 - Tirar dúvidas

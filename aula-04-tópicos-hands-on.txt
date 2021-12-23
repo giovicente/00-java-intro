@@ -1,0 +1,44 @@
+Recados
+- até amanhã 23:59 para entrgear lista 2 que é a primeira
+- vou tentar corrigir na quarta mesmo
+- estamos fechando o projeto para mandar até sexta
+- uma das "pautas frias" de 2022 pode ser conversa sobre carreira em TI
+
+No início da aula, falar sobre a quebra completa dos comportamentos do programa do Professor.
+
+Destacar: diferença entre scanear para uma variável e scanear direto do retorno.
+Falar sobre o scan de um enum usando o valueOf
+Explicar um pouco sobre o close do scanner (se não fechar pode ficar vazando memória) e ensinar um pouquinho o debug (F8: next step e F9: final do programa)
+Explicar sobre a cadeia de chamado de uma função.
+Depois falar sobre o extract method para deixar o main ainda mais sucinto e compartilhar que nesse caso, ainda que em um exemplo mais diático e simples, o main representa um controller ou um consumer.
+
+Estrutura de condição
+
+if, else if, else
+Mudar o exemplo, usar o do Twitter da prefeiura de Duque de Caxias. - https://i.redd.it/cw5kiln88l181.jpg
+Mudar o valor de horas aulas para compor o cálculo de horas trabalhadas, colocar um if para o caso das horas serem menores que o mínimo permitido
+
+    public static float calcularHorasTrabalhadas(float salarioProfessor, float valorHoraProfessor) {
+        final float VALOR_MINIMO_HORA_AULA = 45f;
+
+        if (valorHoraProfessor < VALOR_MINIMO_HORA_AULA) {
+            System.out.printf("O valor hora informado de %.2f é menor do que o valor mínimo %.2f. " +
+                    "Vamos atribuir o valor mínimo.%n", valorHoraProfessor, VALOR_MINIMO_HORA_AULA);
+            valorHoraProfessor = VALOR_MINIMO_HORA_AULA;
+        }
+
+        while (valorHoraProfessor < VALOR_MINIMO_HORA_AULA) {
+            System.out.printf("O valor hora mínimo é de %.2f. Insira um valor válido!!!%n", VALOR_MINIMO_HORA_AULA);
+            valorHoraProfessor = Leitor.escanearValorHoraProfessor();
+        }
+
+        do {
+            System.out.printf("O valor hora mínimo é de %.2f. Insira um valor válido!!!%n", VALOR_MINIMO_HORA_AULA);
+            valorHoraProfessor = Leitor.escanearValorHoraProfessor();
+        } while (valorHoraProfessor < VALOR_MINIMO_HORA_AULA);
+
+calcular o bônus do professor de acordo com o tipo de vínculo - INTEGRAL ou MEIO_PERIODO
+
+montar um menu principal com switch
+
+

@@ -1,0 +1,42 @@
+IntelliJ Ultimate
+https://account.jetbrains.com/a/e5k4ej6x
+
+Considerações sobre a lista
+
+Variáveis
+
+Explicação do conceito
+Criação das primeiras variáveis, pensando no contexto de um professor
+  nome (String)
+  idade (int, mas explicar que poderia ser byte ou short)
+  salario (deixar como float, explicar sobre o double e o BigDecimal se tiver tempo)
+  numeroCadastro (long, explicar o L maiúsculo)
+  bool isAuxiliar
+  VALOR_MINIMO_HORA_AULA
+
+Começar a fazer os println e depois fazer via print e ir explicando a diferença
+
+Criar um enum com o TipoVinculoProfessor
+  Mostrar como converter um enum em String, fazendo um replace do '_' por ' '
+
+Começar a mostrar os operadores
+  Fazer um calculo do bonus do professor (0.1) bonus = salario * 0.1
+  Fazer a soma do salário com o bônus (usando o + e depois o +=) salario = salario + bonus;
+  Fazer a divisão do salário pelas horas aula, explicando a formatação do printf
+  Fazer bem rapidinho um for para exemplificar os operadores ++ e --
+  Usar o % para mostrar o resto da divisão (não entregar a paçoca que dá para usar isso como   recurso para saber se o número é par ou não)
+  
+Começar a fazer os conversores
+  De quilômetros para pés
+
+Passar o desafio
+Escreva um programa que, com base em uma temperatura em graus celsius, a converta e exiba em Kelvin (K), Réaumur (Re), Rankine (Ra) e Fahrenheit (F), seguindo as fórmulas: F = (C * 1.8) + 32; K = C + 273.15; Re = C * 0.8; Ra = (C * 1.8) + 459.67
+---
+FATOR_MULTIPLICACAO_CELSIUS_FAHRENHEIT = 1.8f;
+FATOR_MULTIPLICACAO_CELSIUS_RANKINE = 1.8f;
+FATOR_SOMA_CELSIUS_FAHRENHEIT = 32;
+
+Corrigir o desafio
+
+Passar o formulário
+(se der tempo, passar um pouco de entradas e saídas [Scanner] e falar um pouco de funções)

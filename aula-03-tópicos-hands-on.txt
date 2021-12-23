@@ -1,0 +1,33 @@
+---
+str.split( [separator[, limit]] )
+---
+
+Considerações sobre a lista e os exercícios
+Mandaram com BigDecimal e "do while", também mandaram fazendo a conta direto na constante
+
+final float FATOR_CONVERSAO_FAHRENHEIT = (celsius * 1.8f) + 32;
+
+final float VARIACAO_FAHRENHEIT = 32;
+
+System.out.printf("%.2fºC equivalem a %.2fºF. %n", celsius, FATOR_CONVERSAO_FAHRENHEIT);
+
+---
+
+Métodos de entrada
+
+Scanner scan = new Scanner(System.in);
+Explicar a diferença do next() para o nextLine()
+[next armazena só a primeira palavra, nextLine uma sentença]
+
+Mostrar como se escaneia um caractere
+scanInicial.next().charAt(0); // explicar o posicionamento dos caracteres (char(0) é o primeiro elemento)
+
+---
+
+Começar a falar de funções e dixavar a assinatura de um método para poder cobrar isso na lista
+
+---
+
+Falar um pouco sobre a quebra e SOLID 
+Mostra o vídeo do projeto de apuracao-saldo
+(veja o projeto da cantina, que tem leitor, impressora [dá para usar os elementos do printf em uma constante] e calculadora)

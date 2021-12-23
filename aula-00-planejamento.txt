@@ -1,0 +1,17 @@
+Cronograma de aulas
+Dia   - Aula - Conteúdo
+29/11 - 01   - Apresentação, Setup, Versionamento, Introdução, HelloWord - OK
+01/12 - 02   - Variáveis, Constantes, Operadores - OK
+03/12 - 03   - Entrada e Saída, Exercícios 1 - OK
+
+06/12 - 04   - Condicionais (if,switch), Repetição (for, while, do) - OK
+08/12 - 05   - Arrays e Matrizes, Exercícios 2 - OK
+10/12 - 06   - Orientação a Objetos, Instruções Desafio Final (Batalha Naval) - OK
+
+13/12 - 07   - Orientação a Objetos, Exercícios 3 - OK
+15/12 - 08   - Orientação a Objetos, Exercícios 4 - OK
+17/12 - 09   - Tratamento de Erros
+
+10/01 - 10   - Revisão geral, Exercícios 5
+12/01 - 11   - Apresentação, Desafio Final
+14/01 - 12   - Revisão geral, Encerramento
