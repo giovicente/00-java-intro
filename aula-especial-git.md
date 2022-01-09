@@ -25,7 +25,7 @@
 * Comandos básicos (Github Git cheat sheet): https://education.github.com/git-cheat-sheet-education.pdf
 
 * Em tradução livre, "cheat sheet" significa "cola", ou seja, é a "colinha" que algumas pessoas fazem na prova. No nosso mundo de programação, o uso de cheat sheets é extremamente comum e saudável (tem até caneca vendida com cheat sheet de git, basta pesquisar por "caneca comandos Git"), o ponto é que seu uso precisa ser justamente, o de uma "colinha" para não precisar ficar revisitando materiais, aulas e estudos mais pesados. Porém, se você simplesmente digitar comandos, sem ter consciência do que está sendo feito de fato por detrás dos panos, você simplesmente está sendo adestrado e caso tenha uma nova ferramenta você vai ter que esperar alguém aprender ela, montar um cheat sheet e ficar refém dele de novo... 
-    * A bem da verdade, para ferramentas de SCM este cenário é improvável, mas para liguagens / plataformas de cloud é super provável
+    * A bem da verdade, para ferramentas de SCM este cenário é improvável, mas para linguagens / plataformas de cloud é super provável
 
 * Comandos básicos (fazer o add, commit, push e pull no VS Code e IntelliJ também)
     * global config
@@ -45,8 +45,8 @@
     * se eu já fiz o push, dá para fazer o `git reset` e na sequência um git push `--force-with-lease`
     * agora vou fazer uma alteração remota no readme e depois fazer o pull (dúvida recorrente)
     * diff (temos também outras recomendações, como o Meld, visual studio code [basta alterar o arquivo e clicar no símbolo das "branches" ao lado do preview], IntelliJ [2 jeitos: botão direito no arquivo e depois ir em Git >> Show Diff ou então clicar na branch, acessar o repo que você quer, a branch deste repo e por fim selecionar "Show Diff with Working Tree"])
-        * Se for digitado somente o `git diff`, vão ser referenciadas e apontadas as diferenças de todos os arquivos do projeto que já foram commitados pelo menos uma vez e que ainda não foram para a stage área (também conhecida como "cesta de commits"), ou seja, o `git add` ainda não foi realizado nestes arquuivos. Para arquivos que já estão na stage area mas ainda não foram commitados, é possível usar o `git diff --staged`
-        * Quando o diff é feito, o output é exibido no que acredito que seja um Vim (um editor de texto que roda no Linux... tem devs muito raiz [mas muito mesmo, do tipo que codam ouvindo rock progressivo e no tempo livro são moderadores de fórum de Rick and Morty no Reddit] são suuper entusiastas, usam mais que qualquer outra IDE), então tem que ficar batendo `enter` à medida que os `:` ainda aparecerem e no final utilizar os famosos `esc` + `:` + `q` de "quero sair"
+        * Se for digitado somente o `git diff`, vão ser referenciadas e apontadas as diferenças de todos os arquivos do projeto que já foram commitados pelo menos uma vez e que ainda não foram para a stage área (também conhecida como "cesta de commits"), ou seja, o `git add` ainda não foi realizado nestes arquivos. Para arquivos que já estão na stage area mas ainda não foram commitados, é possível usar o `git diff --staged`
+        * Quando o diff é feito, o output é exibido no que acredito que seja um Vim (um editor de texto que roda no Linux... tem devs muito raiz [mas muito mesmo, do tipo que codam ouvindo rock progressivo e no tempo livro são moderadores de fórum de Rick and Morty no Reddit] são super entusiastas, usam mais que qualquer outra IDE), então tem que ficar batendo `enter` à medida que os `:` ainda aparecerem e no final utilizar os famosos `esc` + `:` + `q` de "quero sair"
         * Também é possível fazer a comparação de versões já commitadas no próprio github, clicando em History, ele tem as diferenças da versão selecionada em relação à versão anterior
 
 * Branching e DAG
