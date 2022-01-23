@@ -18,6 +18,7 @@ Spring Guru: https://springframework.guru/
 Hands-On
 
 1 - Download JDK (direto do site da Oracle, tem que criar conta... para instalar é "next > next > finish"
+2 - Setar a variável de ambiente JAVA_HOME
 2 - Setup IntelliJ
 3 - Explicação sobre a estrutura da ferramenta (project, commit, mudar diretório padrão...)
 4 - Fazer função main e falar sobre os tipos de comentários
