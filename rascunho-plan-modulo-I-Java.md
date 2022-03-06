@@ -82,8 +82,9 @@ Módulo: [BE-JV-001] Lógica de programação I
          Participações e interações nas aulas
       </td>
       <td>
-         Ao tratar de paradigmas de programação e orientação a objetos no início do módulo, a ideia é apenas contextualizar os alunos o conceito de paradigma e mencionar que o Java é orientado a objetos, mas sem se aprofundar nestes assuntos<br /><br />
-         Nesta fase, o foco é a construção de aplicações a serem executadas em console. Pode-se optar por apresentar, além da classe Scanner e das funções print() / println() e printf (que são itens obrigatórios), JOptionPane para as entradas e saídas
+         Ao tratar de paradigmas de programação e orientação a objetos no início do módulo, a ideia é apenas contextualizar os alunos sobre o conceito de paradigma e mencionar que o Java é orientado a objetos, mas sem se aprofundar nestes assuntos<br /><br />
+         Nesta fase, o foco é a construção de aplicações a serem executadas em console<br /><br /> 
+         Pode-se optar por apresentar, além da classe Scanner e das funções print() / println() e printf (que são itens obrigatórios), JOptionPane para as entradas e saídas
       </td>
    </tr>
 </table>
@@ -114,7 +115,7 @@ Módulo: [BE-JV-001] Lógica de programação I
          Breve explicação sobre a história do Java<br /><br />
          Download e instalação da JDK, configuração e exibição da variável JAVA_HOME<br /><br />
          Contextualização sobre o que é JDK, JRE e JVM<br /><br />
-         Configuração do IntelliJ e criação do primeiro projeto
+         Configuração do IntelliJ e criação do primeiro projeto<br /><br />
          Pesquisa individual:<br />
          Desobrir como escrever um "Hello World" em Java<br /><br />
          Prático:<br />
@@ -166,7 +167,7 @@ Módulo: [BE-JV-001] Lógica de programação I
       <td>
          Aula 4
       </td>
-      <td>Organizando o código e segregando responsabilidades no projeto das médias ponderadas</td>
+      <td>Organizando o código e segregando responsabilidades no projeto das Médias</td>
       <td>
          Funções simples e suas assinaturas<br /><br />
          Organização de código e segregação de responsabilidades em classes
@@ -202,7 +203,7 @@ Módulo: [BE-JV-001] Lógica de programação I
          <br /><br />
       </td>
       <td>
-         Estudo de Caso 1:<br />
+         Estudo de Caso:<br />
          Como fazer um programa que calcule médias e diga se o aluno passou ou não a partir de uma nota de corte pré-estabelecida. E se adicionarmos presenças?
          <br /><br />
          Expositiva:<br />
