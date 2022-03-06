@@ -250,8 +250,11 @@ Exercícios de fixação (while e do while).
 Aula 7
 </td>
 <td>
-Vetores e Matrizes (valores múltiplos) e sua relação com o conceito matemático<br /><br />
-Estruturas de repetição para percorrer vetores e matrizes
+Médias e Médias Ponderadas (usando listas)
+</td>
+<td>
+Vetores e Matrizes (valores múltiplos) e sua relação com o conceito matemático.<br /><br />
+Estruturas de repetição para percorrer vetores e matrizes<br /><br />
 </td>
 <td>
 Estudo de Caso 1:<br />
