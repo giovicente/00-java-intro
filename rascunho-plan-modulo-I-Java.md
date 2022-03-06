@@ -299,3 +299,17 @@ Módulo: [BE-JV-001] Lógica de programação I
       <td colspan="3">Aula dedicada à devolutiva da avaliação por rubrica / auto-avaliação</td>
    </tr>
 </table>
+
+## Avaliação Por Rubricas:
+
+As habilidades e competências a serem desenvolvidas no módulo **[BE-JV-001] Lógica de programação I** são as descritas a seguir:
+
+- Setup de ambiente de desenvolvimento Java
+- Variáveis, Constantes, Operadores e Enums
+- Estruturas de condição
+- Estruturas de repetição
+- Reutilização, modularização e organização de código
+- Coleções de dados com Arrays e Matrizes
+- Autonomia
+- Colaboração
+- Comunicação
