@@ -39,7 +39,8 @@ Módulo: [BE-JV-001] Lógica de programação I
          Apropriação das técnicas de endereçamento de variáveis e constantes com múltiplos valores (vetores / matrizes)<br /><br />
          Apropriação das técnicas de uso de laços de repetição para percorrer vetores e matrizes<br /><br />
          Entendimento de segregação de responsabilidades e sua aplicação em programas estruturados<br /><br />
-         Entendimento e apropriação de uso de softwares de versionamento (GIT) para desenvolvimento em times 
+         Entendimento da importância e apropriação das técnicas de tratamento e lançamento de erros<br /><br />
+         Entendimento e apropriação de uso de softwares de versionamento (Git) para desenvolvimento em times 
          <br/><br/>
       </td>
       <td>
@@ -63,6 +64,7 @@ Módulo: [BE-JV-001] Lógica de programação I
          Estruturas de repetição: while e do while<br /><br />
          Vetores e Matrizes (valores múltiplos) e sua relação com o conceito matemático<br /><br />
          Estruturas de repetição para percorrer vetores e matrizes<br /><br />
+         Tratamento de erros com try, catch, finally e try-with-resources<br /><br />
          Versionamento de código (Git)
       </td>
       <td>
@@ -84,7 +86,7 @@ Módulo: [BE-JV-001] Lógica de programação I
       <td>
          Ao tratar de paradigmas de programação e orientação a objetos no início do módulo, a ideia é apenas contextualizar os alunos sobre o conceito de paradigma e mencionar que o Java é orientado a objetos, mas sem se aprofundar nestes assuntos<br /><br />
          Nesta fase, o foco é a construção de aplicações a serem executadas em console<br /><br /> 
-         Pode-se optar por apresentar, além da classe Scanner e das funções print() / println() e printf (que são itens obrigatórios), JOptionPane para as entradas e saídas
+         Pode-se optar por apresentar JOptionPane para as entradas e saídas, porém como complemento da classe Scanner e das funções print() / println() / printf(), que são conteúdos obrigatórios
       </td>
    </tr>
 </table>
@@ -273,25 +275,27 @@ Módulo: [BE-JV-001] Lógica de programação I
          Aula 8
       </td>
       <td>
-         Como versionar meu código e subí-lo no Git?<br /><br />
+         Como evitar que seu sistema exploda?<br /><br />
       </td>
       <td>
-         Introdução ao Versionamento de código (Git)
+         Tratamento de erros
       </td>
       <td>
          Estudo de Caso 1:<br />
-         Criar um repositório novo no Github e subir o código da versão final das médias.
+         Como capturar os erros e decidir se o sistema deve continuar ou parar?
          <br /><br />
          Estudo de Caso 2:<br />
-         Clonar um projeto, realizar alguma manutenção e fazer o push no Github.
+         Como utilizar o try-with-resources?
+         <br /><br />
+         Estudo de Caso 3:<br />
+         Como criar as minhas próprias exceções?
          <br /><br />
          Expositiva:<br />
-         Conceito de versionamento<br /><br />
-         Comandos git: config, init, status, add, commit, push, clone, restore, reset<br /><br />
+         try / catch / finally / try-with-resources<br /><br />
          Pesquisa individual:<br />
-         O que são branchs e como criar uma branch?<br /><br />
+         O que são exceções checadas e não checadas?<br /><br />
          Prático:<br />
-         Exercícios de fixação (versionamento de código e git).
+         Exercícios de fixação (tratamento de erros).
       </td>
    </tr>
    <tr>
@@ -311,6 +315,8 @@ As habilidades e competências a serem desenvolvidas no módulo **[BE-JV-001] L�
 - Estruturas de repetição
 - Reutilização, modularização e organização de código
 - Coleções de dados com Arrays e Matrizes
+- Tratamento e lançamento de erros
+- Vesionamento de código
 - Autonomia
 - Colaboração
 - Comunicação
