@@ -305,6 +305,7 @@ Módulo: [BE-JV-001] Lógica de programação I
 As habilidades e competências a serem desenvolvidas no módulo **[BE-JV-001] Lógica de programação I** são as descritas a seguir:
 
 - Setup de ambiente de desenvolvimento Java
+- Compreensão sobre as funções da JDK, JRE e JVM
 - Variáveis, Constantes, Operadores e Enums
 - Estruturas de condição
 - Estruturas de repetição
